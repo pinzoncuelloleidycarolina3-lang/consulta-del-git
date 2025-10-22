@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultas Básicas de Git</title>
+</head>
+<body>
+    <h1>Guia basica de Git Y GitHub</h1>
+
+    <section>
+        <h2>Principales comandos de Git</h2>
+        <p>Resumen rápido de los comandos más usados:</p>
+        <ul>
+            <li><strong>git init</strong> — crear un repositorio local.</li>
+            <li><strong>git clone &lt;url&gt;</strong> — clonar un repositorio remoto.</li>
+            <li><strong>git status</strong> — ver el estado de los archivos.</li>
+            <li><strong>git add &lt;archivo|.&gt;</strong> — añadir cambios al área de preparación (staging).</li>
+            <li><strong>git commit -m "mensaje"</strong> — guardar cambios en el historial.</li>
+            <li><strong>git branch</strong> / <strong>git checkout &lt;rama&gt;</strong> — gestionar y cambiar ramas.</li>
+            <li><strong>git merge &lt;rama&gt;</strong> — fusionar una rama en la actual.</li>
+            <li><strong>git pull</strong> / <strong>git push</strong> — traer y enviar cambios al remoto.</li>
+            <li><strong>git log</strong> — ver el historial de commits.</li>
+            <li><strong>git diff</strong> — ver diferencias entre estados.</li>
+        </ul>
+
+        <p>Ejemplo de flujo básico:</p>
+        <img src="codigo.png" alt="Comandos Git" style="max-width: 30%; height: auto;">
+
+    <div class="git-commands"></div>
+        <h3>Procesos Detallados con Ejemplos</h3>
+        
+        <div class="command">
+            <h4>git init</h4>
+            <p>Inicia un nuevo repositorio:</p>
+            <code>$ mkdir mi-proyecto<br>$ cd mi-proyecto<br>$ git init</code>
+        </div>
+
+        <div class="command">
+            <h4>git clone</h4>
+            <p>Clona un repositorio existente:</p>
+            <code>$ git clone https://github.com/usuario/repositorio.git</code>
+        </div>
+
+        <div class="command">
+            <h4>git add</h4>
+            <p>Añade archivos al staging:</p>
+            <code>$ git add archivo.txt<br>$ git add .</code>
+        </div>
+
+        <div class="command">
+            <h4>git commit</h4>
+            <p>Guarda los cambios en el repositorio:</p>
+            <code>$ git commit -m "Primera versión del proyecto"</code>
+        </div>
+
+        <div class="command">
+            <h4>git branch</h4>
+            <p>Crea y gestiona ramas:</p>
+            <code>$ git branch nueva-funcionalidad<br>$ git checkout nueva-funcionalidad</code>
+        </div>
+
+        <div class="command">
+            <h4>git merge</h4>
+            <p>Fusiona ramas:</p>
+            <code>$ git checkout main<br>$ git merge nueva-funcionalidad</code>
+        </div>
+
+        <div class="command">
+            <h4>git pull/push</h4>
+            <p>Sincroniza con repositorio remoto:</p>
+            <code>$ git pull origin main<br>$ git push origin main</code>
+        </div>
+    </div>
+
+    <pre>
+   
+
+
+        </pre>
+       
+    </code>
+</body>
+</html>
